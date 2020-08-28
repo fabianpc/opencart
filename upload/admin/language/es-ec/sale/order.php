@@ -1,0 +1,137 @@
+<?php
+// Bóveda
+$_['header_title'] = 'Pedidos';
+
+// Texto
+$_['text_success'] = 'Éxito: ¡Ha modificado las órdenes!';
+$_['text_list'] = 'Lista de pedidos';
+$_['text_add'] = 'Agregar orden';
+$_['text_edit'] = 'Editar orden';
+$_['text_filter'] = 'Filtro';
+$_['text_order_detail'] = 'Detalles del pedido';
+$_['text_customer_detail'] = 'Detalles del cliente';
+$_['text_cart'] = 'Carrito de compras';
+$_['text_payment_detail'] = 'Detalles de pago';
+$_['text_shipping_detail'] = 'Detalles del envío';
+$_['text_total_detail'] = 'Total';
+$_['text_option'] = 'Opciones';
+$_['text_store'] = 'Tienda';
+$_['text_date_added'] = 'Fecha de adición';
+$_['text_payment_method'] = 'Método de pago';
+$_['text_shipping_method'] = 'Método de envío';
+$_['text_customer'] = 'Cliente';
+$_['text_customer_group'] = 'Grupo de clientes';
+$_['text_email'] = 'Correo electrónico';
+$_['text_telephone'] = 'Teléfono';
+$_['text_fax'] = 'Fax';
+$_['text_invoice'] = 'Factura';
+$_['text_reward'] = 'Puntos de recompensa';
+$_['text_affiliate'] = 'Afiliado';
+$_['text_order'] = 'Pedido (#%s)';
+$_['text_payment_address'] = 'Dirección de pago';
+$_['text_shipping_address'] = 'Dirección de envío';
+$_['text_comment'] = 'Comentario del cliente';
+$_['text_history'] = 'Historial de pedidos';
+$_['text_history_add'] = 'Agregar historial de pedidos';
+$_['text_account_custom_field'] = 'Campos personalizados de cuenta';
+$_['text_payment_custom_field'] = 'Campos personalizados de la dirección de pago';
+$_['text_shipping_custom_field'] = 'Campos personalizados de la dirección de envío';
+$_['text_browser'] = 'Navegador';
+$_['text_ip'] = 'Dirección IP';
+$_['text_forwards_ip'] = 'IP reenviada';
+$_['text_user_agent'] = 'Agente de usuario';
+$_['text_accept_language'] = 'Aceptar idioma';
+$_['text_order_id'] = 'ID de pedido:';
+$_['text_website'] = 'Sitio web:';
+$_['text_invoice_no'] = 'Factura No.';
+$_['text_invoice_date'] = 'Fecha de factura:';
+$_['text_sku'] = 'SKU:';
+$_['text_upc'] = 'UPC:';
+$_['text_ean'] = 'EAN:';
+$_['text_jan'] = 'ENE:';
+$_['text_isbn'] = 'ISBN:';
+$_['text_mpn'] = 'MPN:';
+$_['text_missing'] = 'Órdenes faltantes';
+$_['text_default'] = 'Predeterminado';
+$_['text_product'] = 'Agregar producto (s)';
+$_['text_voucher'] = 'Agregar comprobante (s)';
+$_['text_shipping'] = 'Envío';
+$_['text_contact'] = 'Contacto';
+$_['text_reward_added'] = 'Éxito: ¡Puntos de recompensa agregados!';
+$_['text_reward_removed'] = 'Éxito: ¡Puntos de recompensa eliminados!';
+$_['text_commission_added'] = 'Éxito: ¡Comisión agregada!';
+$_['text_commission_removed'] = 'Éxito: ¡Comisión eliminada!';
+$_['text_restock'] = 'Éxito: ¡Se han reabastecido los productos!';
+$_['text_upload'] = '¡Su archivo se cargó correctamente!';
+$_['text_picklist'] = 'Nota de despacho';
+$_['text_reward'] = 'Puntos de recompensa';
+
+// columna
+$_['column_order_id'] = 'ID de pedido';
+$_['column_customer'] = 'Cliente';
+$_['column_status'] = 'Estado';
+$_['column_date_added'] = 'Fecha de adición';
+$_['column_date_modified'] = 'Fecha de modificación';
+$_['column_total'] = 'Total';
+$_['column_product'] = 'Producto';
+$_['column_model'] = 'Modelo';
+$_['column_quantity'] = 'Cantidad';
+$_['column_price'] = 'Precio unitario';
+$_['column_comment'] = 'Comentario';
+$_['column_notify'] = 'Cliente notificado';
+$_['column_location'] = 'Ubicación';
+$_['column_reference'] = 'Referencia';
+$_['column_action'] = 'Acción';
+$_['column_weight'] = 'Peso del producto';
+
+// Entrada
+$_['entry_store'] = 'Tienda';
+$_['entry_customer'] = 'Cliente';
+$_['entry_customer_group'] = 'Grupo de clientes';
+$_['entry_firstname'] = 'Nombre';
+$_['entry_lastname'] = 'Apellido';
+$_['entry_email'] = 'Correo electrónico';
+$_['entry_telephone'] = 'Teléfono';
+$_['entry_address'] = 'Elegir dirección';
+$_['entry_company'] = 'Compañía';
+$_['entry_address_1'] = 'Dirección 1';
+$_['entry_address_2'] = 'Dirección 2';
+$_['entry_city'] = 'Ciudad';
+$_['entry_postcode'] = 'Código postal';
+$_['entry_country'] = 'País';
+$_['entry_zone'] = 'Región / Estado';
+$_['entry_zone_code'] = 'Código de región / estado';
+$_['entry_product'] = 'Elegir producto';
+$_['entry_option'] = 'Elegir opción (s)';
+$_['entry_quantity'] = 'Cantidad';
+$_['entry_to_name'] = 'Nombre del destinatario';
+$_['entry_to_email'] = 'Correo electrónico del destinatario';
+$_['entry_from_name'] = 'Nombre del remitente';
+$_['entry_from_email'] = 'Correo electrónico del remitente';
+$_['entry_theme'] = 'Tema de certificado de regalo';
+$_['entry_message'] = 'Mensaje';
+$_['entry_amount'] = 'Cantidad';
+$_['entry_affiliate'] = 'Afiliado';
+$_['entry_order_status'] = 'Estado del pedido';
+$_['entry_notify'] = 'Notificar al cliente';
+$_['entry_override'] = 'Anular';
+$_['entry_comment'] = 'Comentario';
+$_['entry_currency'] = 'Moneda';
+$_['entry_shipping_method'] = 'Método de envío';
+$_['entry_payment_method'] = 'Método de pago';
+$_['entry_coupon'] = 'Cupón';
+$_['entry_voucher'] = 'Voucher';
+$_['entry_reward'] = 'Recompensa';
+$_['entry_order_id'] = 'ID de pedido';
+$_['entry_total'] = 'Total';
+$_['entry_date_added'] = 'Fecha de adición';
+$_['entry_date_modified'] = 'Fecha de modificación';
+
+// Ayuda
+$_['help_override'] = 'Si se bloquea el pedido de los clientes para que no cambie el estado del pedido debido a una anulación de habilitación de extensión antifraude';
+
+// Error
+$_['error_warning'] = 'Advertencia: ¡Por favor revise el formulario cuidadosamente para ver si hay errores!';
+$_['error_permission'] = 'Advertencia: ¡No tiene permiso para modificar pedidos!';
+$_['error_action'] = 'Advertencia: ¡No se pudo completar esta acción!';
+$_['error_filetype'] = '¡Tipo de archivo inválido!';
